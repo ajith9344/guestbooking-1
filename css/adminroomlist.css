@@ -1,0 +1,214 @@
+body{
+		background-image: url("img2.jpg");
+		/*background: linear-gradient(to right,#3f5efb,#fb466b);*/
+		overflow-x: hidden;
+		 
+  		background-size: cover;
+  		background-repeat: no-repeat;
+  		background-position: center center;
+
+	}
+	table{
+		margin-bottom: -2%;
+		width: 80%;
+		background:none ;
+	}
+	.pricetd,.edittd{ 
+		display:inline-block;
+		padding-left: 10%;
+
+	}
+	.data1,.data2{
+		width: 100%;
+		margin-left: 5%;
+	}
+	.tableclass{
+		display: flex;
+	}
+	h3{
+		color: white;
+		font-family: Goudy Old Style;
+		font-weight: bold;
+	}
+	p{
+		color: white;
+		
+	}
+	div{
+	display: flex;
+	}
+	.submit{
+		margin-top: 10%;
+		margin-left: 30%;
+		width: 100%;
+		padding:10px 30px;
+		border: none;
+		color: white;
+		font-weight: bold;
+		font-family: calibri;
+		font-size: 20px;
+		background: rgba(255, 255, 255, 0.06);
+		box-shadow:0 8px 32px 0 rgba(31, 38, 135, 1);
+		border-radius: 10px;
+		border-left: 1px solid rgba(255, 255, 255, 0.3);
+		border-top: 1px solid rgba(255, 255, 255, 0.3);
+	}
+
+	.price{
+		margin-top: 25%;
+		background: rgba(255, 255, 255, 0.06);
+		box-shadow:0 8px 32px 0 rgba(31, 38, 135, .37);
+		border-radius: 10px;
+		border-left: 1px solid rgba(255, 255, 255, 0.3);
+		border-top: 1px solid rgba(255, 255, 255, 0.3);
+		width: 100%;
+		padding-left:30% ;
+		padding-right: 30%;
+		padding-top: 8%;
+		padding-bottom: 8%;
+
+	}
+	
+	img{border: 3px solid white;
+		max-width: 300px;
+		max-height: 300px;
+		min-width: 300px;
+		min-height: 300px;
+		
+		
+
+	}
+
+	
+	.addroom{
+		margin-left: 70%;
+		height: 5%;
+		margin-bottom: 3%;
+		margin-right: 5%;
+	}
+
+	.searchinput{
+		width: 100%;
+		padding: 5% ;
+		border: 1px solid grey;
+		border-radius: 10px;
+	}
+
+	.addroomsubmit,.btnlogout{
+		
+		padding-bottom: 5%;
+		padding-left: 5%;
+		padding-right: 5%;
+		border: 2px solid lightgoldenrodyellow;
+		border-radius: 10px;
+		margin-left: 3%;
+		margin-right: 7%;
+		background: lightblue;
+		font-family: calibri;
+		font-weight: bold;
+		color: white;
+		font-size: 20px;
+		background-color: 1a759f;
+
+	}
+
+	
+	.bookingsubmit{
+		
+		padding-bottom: 5%;
+		padding-left: 5%;
+		padding-right: 5%;
+		border: 2px solid lightgoldenrodyellow;
+		border-radius: 10px;
+		margin-left: 60%;
+		
+		font-family: calibri;
+		font-weight: bold;
+		color: white;
+		font-size: 20px;
+		background-color: 1a759f;
+
+	}
+	
+
+	h1{
+		text-align: center;
+		color: greenyellow;
+		font-family: Goudy Old Style;
+		font-weight: bold;
+		letter-spacing: 3px;
+	}
+	::placeholder{
+		font-size: 80%;
+		padding-left: 5%;
+
+	}
+	.editbtn,.deletebtn{
+		margin-top: 10%;
+		margin-left: 80%;
+		width: 100%;
+		padding:5px 30px;
+		border: none;
+		color: white;
+		font-weight: bold;
+		font-family: calibri;
+		font-size: 20px;
+		background: rgba(255, 255, 255, 0.06);
+		box-shadow:0 8px 32px 0 rgba(31, 38, 135, 1);
+		border-radius: 10px;
+		border-left: 1px solid rgba(255, 255, 255, 0.3);
+		border-top: 1px solid rgba(255, 255, 255, 0.3);
+
+
+	}
+	a{
+		text-decoration: none;
+	}
+	.editbtn{
+		margin-bottom: -100px;
+		margin-left: 12%;
+		width: 20%;
+		margin-bottom:10% ;margin-top: 12%;
+	}
+
+	.deletebtn{
+		width: 20%;
+		margin-left: 20%;
+	}
+
+	.priceclass{
+		width: 20%;
+	}
+	
+	.buttontable{
+		margin-top: -2%;
+		margin-left: 20%;
+		width: 100%;
+	}
+	.edittd{
+			width: 45%;
+			margin-left: 3%;
+	}
+	.pricetd{
+
+		margin-left: -3%;
+	}
+	h2{
+		text-align: center;
+		margin-top: 15%;
+		color: lightgray;
+		opacity: 0.6;
+		font-family: Goudy Old Style;
+		letter-spacing: 2px;
+	}
+	.imageclass{
+		margin-top: 2%;
+		min-width: 300px;
+		max-width: 300px;
+		max-height: 300px;
+		min-height: 300px;
+		display: flex;
+		height: 250px;
+		align-items: center;
+		
+	}
